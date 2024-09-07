@@ -47,6 +47,7 @@ pip install -r requirements.txt
 
 #### Update the Excel File:
 
+
 - Open the provided Excel file (client_info.xlsx) and update it with your desired property search criteria.
   
 #### Run the Script:
@@ -55,6 +56,11 @@ Copy code
 ```bash
 python script.py
 ```
+
+#### Enter your file name 
+- in this case "client_info.xlsx" 
+- make sure the file is in the same directory
+
 
 ### Check the Output:
 The script will start sending inquiry emails while showing good logs along the way.
