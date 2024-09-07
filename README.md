@@ -1,4 +1,4 @@
-# 🏠 Vonomia Automation
+# 🏠 Vonovia Automation
 
 This project automates the process of finding properties and sending inquiry emails based on predefined criteria. The script searches a German real estate website and matches properties to the specified conditions.
 
@@ -30,11 +30,11 @@ To run this project, you'll need:
 #### Clone the Repository:
 Copy code
 ```bash
-git clone https://github.com/your-username/Vonomia.git
+git clone https://github.com/your-username/Vonovia.git
 ```
 Copy code
 ```bash
-cd Vonomia
+cd Vonovia
 ```
 #### Install Required Libraries:
 
