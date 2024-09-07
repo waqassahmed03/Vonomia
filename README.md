@@ -1,56 +1,73 @@
-🏠 Property Finder Automation
+# 🏠 Property Finder Automation
+
 This project automates the process of finding properties and sending inquiry emails based on predefined criteria. The script searches a German real estate website and matches properties to the specified conditions.
 
-📋 Project Overview
+## 📋 Project Overview
+
 This automation tool simplifies the process of searching for properties by:
 
-Matching Properties to Given Criteria: The script reads from an Excel file to identify the criteria, such as location, price, size, etc., and then searches the website accordingly.
-Automated Email Inquiries: Once matching properties are found, it automatically sends inquiry emails to the property owners or agents.
-📁 Excel File Information
-The Excel file contains the criteria for matching properties.
-The file headers are mostly in German, as the website being searched is a German website.
-🛠️ Getting Started
-Prerequisites
+- **Matching Properties to Given Criteria**: The script reads from an Excel file to identify the criteria, such as location, price, size, etc., and then searches the website accordingly.
+- **Automated Email Inquiries**: Once matching properties are found, it automatically sends inquiry emails to the property owners or agents.
+
+## 📁 Excel File Information
+
+- The Excel file contains the criteria for matching properties.
+- The file headers are mostly in German, as the website being searched is German.
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
 To run this project, you'll need:
 
-Python (I used 3.11.3)
-Required Python libraries:
-requests
-pandas
+- **Python** (I used 3.11.3)
+- **Required Python libraries**:
+  - `requests`
+  - `pandas`
 
+### Installation
 
-Installation
-Clone the Repository:
-
-bash
+#### Clone the Repository:
 Copy code
+```bash
 git clone https://github.com/your-username/Vonomia.git
+```
+Copy code
+```bash
 cd Vonomia
-Install Required Libraries:
+```
+#### Install Required Libraries:
 
-bash
 Copy code
+```bash
 pip install -r requirements.txt
-🔍 How to Use
-Update the Excel File:
+```
 
-Open the provided Excel file (client_info.xlsx) and update it with your desired property search criteria.
-Run the Script:
+### 🔍 How to Use
 
-bash
+#### Update the Excel File:
+
+- Open the provided Excel file (client_info.xlsx) and update it with your desired property search criteria.
+  
+#### Run the Script:
+
 Copy code
+```bash
 python script.py
-Check the Output:
+```
 
+### Check the Output:
 The script will start sending inquiry emails while showing good logs along the way.
 
-Note: All headers should be in German as the website is a German real estate site.
+*Note: All headers should be in German as the website is a German real estate site.*
 
-⚠️ Important Notes
-Ensure the Excel file is correctly formatted with the required headers.
-Verify your email settings in the script to successfully send inquiry emails.
-🤝 Contributions
+## ⚠️ Important Notes
+- Ensure the Excel file is correctly formatted with the required headers.
+- The headings are case-sensitive.
+
+## 🤝 Contributions
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-📧 Contact
-For any questions or feedback, please reach out at waqassahmed03@gmail.com
+## 📧 Contact
+For any questions or feedback, please reach out at waqassahmed03@gmail.com.
+
