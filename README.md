@@ -1,4 +1,4 @@
-# 🏠 Property Finder Automation
+# 🏠 Vonomia Automation
 
 This project automates the process of finding properties and sending inquiry emails based on predefined criteria. The script searches a German real estate website and matches properties to the specified conditions.
 
